@@ -1,12 +1,35 @@
-                                                                                            
-┌──(venv)─(damnkrishna㉿kali)-[~/Downloads/datam]
-└─$ nano analyze_drone.py
-                                                                                            
+                                                                                           
 ┌──(venv)─(damnkrishna㉿kali)-[~/Downloads/datam]
 └─$ python3 analyze_drone.py
 [+] Analysis complete. Labeled dataset saved to /home/damnkrishna/Downloads/datam/drone_communication_dataset_tagged.csv
+
+[+] Expanded Attack Report
+
+Label Distribution:
 Label
 malicious    45206
 normal          83
 Name: count, dtype: int64
-                               
+
+Attack Type Breakdown:
+Attack_Type
+GPS_Spoofing                   36234
+Traffic_Anomaly                 7294
+Signal_Jamming                  1647
+normal                            83
+Protocol_Frequency_Mismatch       31
+Name: count, dtype: int64
+
+[+] Detailed attack summary saved to /home/damnkrishna/Downloads/datam/attack_summary.csv
+
+[+] Sample Feature Averages per Attack Type:
+                             signal_strength  ...  speed_trajectory
+Attack_Type                                   ...                  
+GPS_Spoofing                      -60.065933  ...         33.320252
+Protocol_Frequency_Mismatch       -60.548387  ...         36.516129
+Signal_Jamming                    -69.890103  ...         33.249545
+Traffic_Anomaly                   -60.162325  ...         33.332191
+normal                            -60.204819  ...         33.879518
+
+[5 rows x 6 columns]
+                   
