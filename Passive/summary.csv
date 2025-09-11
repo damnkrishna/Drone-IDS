@@ -1,0 +1,9 @@
+┌──(venv)─(damnkrishna㉿kali)-[~/Downloads/datam]
+└─$ cat attack_summary.csv             
+Attack_Type,Count
+GPS_Spoofing,36234
+Traffic_Anomaly,7294
+Signal_Jamming,1647
+normal,83
+Protocol_Frequency_Mismatch,31
+        
