@@ -81,11 +81,3 @@ pip install pandas
 * Simplifies the **first stage of the Drone IDS project** by preparing ML-ready data.
 
 
-
-
-
-
-
-
-
-Kaggle data used:https://www.kaggle.com/datasets/datasetengineer/drone-communication-dataset?utm_source=chatgpt.com
