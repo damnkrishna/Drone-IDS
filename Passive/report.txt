@@ -1,0 +1,12 @@
+                                                                                            
+┌──(venv)─(damnkrishna㉿kali)-[~/Downloads/datam]
+└─$ nano analyze_drone.py
+                                                                                            
+┌──(venv)─(damnkrishna㉿kali)-[~/Downloads/datam]
+└─$ python3 analyze_drone.py
+[+] Analysis complete. Labeled dataset saved to /home/damnkrishna/Downloads/datam/drone_communication_dataset_tagged.csv
+Label
+malicious    45206
+normal          83
+Name: count, dtype: int64
+                               
