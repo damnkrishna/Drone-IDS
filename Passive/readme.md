@@ -72,7 +72,6 @@ Install dependencies with:
 pip install pandas
 ```
 
----
 
 ## ✅ Outcome
 
