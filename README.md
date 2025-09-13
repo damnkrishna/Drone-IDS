@@ -93,31 +93,29 @@ This project demonstrates how drones can be protected from malicious intrusions 
 * Connect SITL with QGroundControl.
 * ✅ **Outcome:** Working drone simulator.
 
-### **Level 2 – Normal Drone Operations**
-
 * Perform normal commands (takeoff, waypoint navigation).
 * Record telemetry & logs.
 * ✅ **Outcome:** Baseline dataset.
 
-### **Level 3 – Attack Simulation**
+### **Level 2 – Attack Simulation**
 
 * Inject spoofed, replayed, or unauthorized commands.
 * Observe abnormal behaviors in QGroundControl.
 * ✅ **Outcome:** Malicious traffic dataset.
 
-### **Level 4 – Log Management & Real-time Analysis (Pre-ML)**
+### **Level 3 – Log Management & Real-time Analysis (Pre-ML)**
 
 * Store logs in CSV/JSON.
 * Rule-based anomaly detection (e.g., altitude spikes).
 * ✅ **Outcome:** Human-readable logs + rule-based IDS.
 
-### **Level 5 – Machine Learning Anomaly Detection**
+### **Level 4 – Machine Learning Anomaly Detection**
 
 * Train ML models (Isolation Forest, One-Class SVM, Random Forest, XGBoost).
 * Evaluate detection accuracy.
 * ✅ **Outcome:** ML-powered IDS.
 
-### **Level 6 – Automated Defense Mechanism**
+### **Level 5 – Automated Defense Mechanism**
 
 * Real-time MAVLink sniffing.
 * Pass traffic through ML model.
