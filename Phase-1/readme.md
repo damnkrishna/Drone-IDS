@@ -1,4 +1,4 @@
-#  Setup, Logging & Log Extraction (ArduPilot + SITL + MAVProxy + QGroundControl)
+#  Setup (ArduPilot + SITL + MAVProxy + QGroundControl)
 
 This guide shows how to set up ArduPilot SITL, capture MAVLink telemetry with MAVProxy, visualize with QGroundControl, and convert telemetry logs (`.tlog`) to clean CSVs ready for analysis / ML training.
 
