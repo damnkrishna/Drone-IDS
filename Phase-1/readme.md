@@ -220,3 +220,11 @@ This creates:
 Each is tidy and contains only relevant fields for that message type — ready for visualization or ML feature extraction.
 
 ---
+
+
+remember to clean ports and kill already running processes
+`
+pkill -f sim_vehicle.py
+pkill -f mavproxy.py
+pkill -f QGroundControl`
+
