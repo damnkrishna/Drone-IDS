@@ -87,6 +87,8 @@ source venv/bin/activate
 # Start SITL (quadrotor)
 Tools/autotest/sim_vehicle.py -v ArduCopter -f quad --console --map
 ```
+Tools/autotest/sim_vehicle.py -v ArduCopter -f quad --console --map --out=udp:127.0.0.1:14660
+
 
 This opens the SITL console and a map window (SITL's map). SITL listens on UDP port `14550` by default.
 
@@ -106,6 +108,13 @@ source venv/bin/activate
 mkdir -p ~/drone_logs
 mavproxy.py --master=udp:127.0.0.1:14550 --out=udp:127.0.0.1:14551 --logfile ~/drone_logs/mavproxy_$(date +%F_%H%M%S).tlog
 ```
+cd ~/ardupilot
+source venv/bin/activate mkdir -p ~/drone_logs
+mavproxy.py \
+    --master=udp:127.0.0.1:14660 \ 
+    --out=udp:127.0.0.1:14661     
+
+
 
 * `--master` connects MAVProxy to SITL.
 * `--out` forwards MAVLink to QGroundControl on port `14551`.
