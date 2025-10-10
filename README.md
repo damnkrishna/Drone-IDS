@@ -140,5 +140,5 @@ This project demonstrates how drones can be protected from malicious intrusions 
 * Build a **full IDS/IPS system for drones** in a simulated environment.
 * Extend project to **real drones (hardware integration)**.
 * Improve anomaly detection using **deep learning models (LSTMs, Autoencoders)**.
-* Deploy **cloud-based monitoring dashboards** for swarm security.
+
 
